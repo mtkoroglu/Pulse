@@ -39,7 +39,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye:  [Order Here](https://www.robo90.com/elektronik-kolye)
+1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye:  [Buradan Sipariş Edebilirsiniz](https://www.robo90.com/elektronik-kolye)
 
 2. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
 
@@ -61,7 +61,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 11. Dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc. (Required only when utilizing non-black colored case material)
  
-### Pendant Case
+### Kolye kabı
 
 The PULSE pendant case was designed to hold the existing parts. Other pendant designs can be created as desired as long as the IR sensor will fit and has a clear view to the front of the pendant.
  
@@ -71,7 +71,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 ![cad_with_parts.jpg](Images/cad_with_parts.jpg)
 
-### Circuit Diagram
+### Devre Şeması
 
 ![Circuit_Diagram.jpg](Images/Circuit_Diagram.jpg)
 
