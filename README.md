@@ -1,5 +1,5 @@
 ![Jet Propulsion Laboratory, California Institute of Technology (NASA JPL)](Images/Misc/NASA_JPL_LOGO.jpg)
-# PULSE - a pendant to warn you when you touch your face
+# PULSE - yüzünüze dokunmak istediğinizde sizi uyaran kolye
 Here’s the tool and equipment list, materials, circuit diagram and assembly instructions. The ability to solder is necessary to assemble the PULSE pendant. Except for the IR sensor unit, the parts are generic and can be purchased broadly. Example links for purchasing these parts are shown.
 
 ### Table of Contents
@@ -25,15 +25,15 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 
 
-### Tools and equipment needed
+### Gerekenler (Malzeme & Cihaz)
 
-1.	Home-class 3D Printer (PLA material or other as user option; you can also send files out for on-line order)
+1.	Ev sınıfı 3B yazıcı (PLA dahil)
 
-2. Soldering Iron and solder
+2. Havya ve lehim
 
-3. Wire Stripper
+3. Kablo soyucu
 
-4. Helping Hands Stand to Assist Soldering (optional)
+4. Lehimleme için yardımcı biri (opsiyonel)
 
 ### Materials Required and links for ordering
 
