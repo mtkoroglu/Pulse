@@ -25,7 +25,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 
 
-### Gerekenler (Malzeme & Cihaz)
+### Gerekenler (Cihâzat)
 
 1.	Ev sınıfı 3B yazıcı (PLA dahil)
 
@@ -35,29 +35,31 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 4. Lehimleme için yardımcı biri (opsiyonel)
 
-### Materials Required and links for ordering
+### Gerekli malzemeler ve sipariş edebileceğiniz bağlantı
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-1. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
+1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye:  [Order Here](https://www.robo90.com/elektronik-kolye)
 
-2. PNP Transistor: 2N3906 or equivalent: [Order Here](https://www.amazon.com/Projects-B-0001-A10f-General-Transistor-92/dp/B07Y3GFR5P/ref=sr_1_6?dchild=1&keywords=2n3906+transistor&qid=1589929461&sr=8-6) or equivalent in function
+2. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
 
-3. 1 K Ohm standard resistor: [Order Here](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDWFDD?ref_=ast_slp_dp) or equivalent in function
+3. PNP Transistor: 2N3906 or equivalent: [Order Here](https://www.amazon.com/Projects-B-0001-A10f-General-Transistor-92/dp/B07Y3GFR5P/ref=sr_1_6?dchild=1&keywords=2n3906+transistor&qid=1589929461&sr=8-6) or equivalent in function
 
-4. Slide Switch to fit case: [Order Here](https://www.amazon.com/gp/product/B07NLR444L/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/Switch.STL)
+4. 1 K Ohm standard resistor: [Order Here](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDWFDD?ref_=ast_slp_dp) or equivalent in function
 
-5. Vibrating Motor to fit case [Order 10x2.0mm Vibrating Motor Here](https://www.pololu.com/product/1638) or [Order 10x3.4mm Vibrating Motor Here](https://www.pololu.com/product/1636) 
+5. Slide Switch to fit case: [Order Here](https://www.amazon.com/gp/product/B07NLR444L/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/Switch.STL)
 
-6. W1 – 5 cm; W2 – 4 cm; W3 – 2 cm; W4 – 2 cm; 22 Gage Wire
+6. Vibrating Motor to fit case [Order 10x2.0mm Vibrating Motor Here](https://www.pololu.com/product/1638) or [Order 10x3.4mm Vibrating Motor Here](https://www.pololu.com/product/1636) 
 
-7. Heat shrink tubing to cover leads: [Order Here](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW/ref=sr_1_5?dchild=1&keywords=shrink+wrap&qid=1589929721&s=industrial&sr=1-5) or equivalent to cover a 2.5mm diameter wire
+7. W1 – 5 cm; W2 – 4 cm; W3 – 2 cm; W4 – 2 cm; 22 Gage Wire
 
-8. Battery Holder: [Order Here](https://www.amazon.com/gp/product/B07FL8MFK8/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/Battery_receptacle.STL)
+8. Heat shrink tubing to cover leads: [Order Here](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW/ref=sr_1_5?dchild=1&keywords=shrink+wrap&qid=1589929721&s=industrial&sr=1-5) or equivalent to cover a 2.5mm diameter wire
 
-9. 3V CR2032 Coin Battery: [Order Here](https://www.amazon.com/gp/product/B071D4DKTZ/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1) or equivalent in function
+9. Battery Holder: [Order Here](https://www.amazon.com/gp/product/B07FL8MFK8/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/Battery_receptacle.STL)
 
-10. Dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc. (Required only when utilizing non-black colored case material)
+10. 3V CR2032 Coin Battery: [Order Here](https://www.amazon.com/gp/product/B071D4DKTZ/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1) or equivalent in function
+
+11. Dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc. (Required only when utilizing non-black colored case material)
  
 ### Pendant Case
 
