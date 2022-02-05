@@ -39,7 +39,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye:  [Buradan Sipariş Edebilirsiniz](https://www.robo90.com/elektronik-kolye)
+1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye  [Buradan Sipariş Edebilirsiniz](https://www.robo90.com/elektronik-kolye)
 
 2. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
 
@@ -67,7 +67,7 @@ The PULSE pendant case was designed to hold the existing parts. Other pendant de
  
 If not using black material for case, the bottom of the IR emitter will need to be painted black or covered with black electrical tape to absorb any light. If this is not done, the sensor will read false motion and vibrate continuously. Only the flat bottom, do not cover the whole LED.
 
-[Download STL Files](https://github.com/nasa-jpl/Pulse/tree/master/CAD)
+[STL dosyalarını buradan indirebilirsiniz](https://github.com/nasa-jpl/Pulse/tree/master/CAD)
 
 ![cad_with_parts.jpg](Images/cad_with_parts.jpg)
 
@@ -77,7 +77,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 Central to the design of the PULSE pendant is the infrared sensor unit (U1 in the diagram) that provides a high (~3 V) output signal to pin 3 by default, and drops low (~1 V) when the LED detector (D1) receives a signal indicating your hand (or other reflecting object) is in front of the pendant.  L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
 
-### Assembly of the PULSE pendant
+### PULSE kolyenin montajı/birleştirilmesi
 
 1. Wire W1 solders to the center pin of the switch and wire W2 solders to an end pin of the switch. The third pin on the switch can be 		clipped off – it is not used. Heat shrink covers the pins. This picture shows the completed switch next to an assembled PULSE pendant
 
