@@ -37,7 +37,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 ### Gerekli malzemeler ve sipariş edebileceğiniz bağlantı
 
-![Materials_Required.jpg](Images/Materials_Required.jpg)
+<img src="Images/Materials_Required.jpg" alt="materails and components" height="300"/>
 
 1. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
 
