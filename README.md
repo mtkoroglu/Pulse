@@ -63,7 +63,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye  [Buradan Sipariş Edebilirsiniz](https://www.robo90.com/elektronik-kolye)
 
-<img src='şekil/malzemeler' alt="malzemeler" height="300"/>
+<img src="şekil/malzemeler.jpg" alt="malzemeler" height="300"/>
  
 ### Kolye kabı
 
