@@ -37,7 +37,9 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 ### Gerekli malzemeler ve sipariş edebileceğiniz bağlantı
 
-<img src="Images/Materials_Required.jpg" alt="materails and components" height="300"/>
+<img src="Images/Materials_Required.jpg" alt="materails and components" height="500"/>
+
+*Şekil 1.* Koronavirüs kolyesi projesinde kullanılan malzeme ve devre elemanları (NASA).
 
 1. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent in function and [size determined by CAD here](https://github.com/nasa-jpl/Pulse/blob/master/CAD/Components/pololu-38-khz-ir-proximity-sensor.STL)
 
@@ -63,8 +65,10 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
 
 1. Robo90 tarafından hazırlanmış toplu paket: Elektronik Kolye  [Buradan Sipariş Edebilirsiniz](https://www.robo90.com/elektronik-kolye)
 
-<img src="şekil/malzemeler.jpg" alt="malzemeler" height="300"/>
+<img src="şekil/malzemeler.jpg" alt="malzemeler" height="400"/>
  
+*Şekil 2.* Koronavirüs kolyesi projesinde kullanılan malzeme ve devre elemanları (*Robo90.com*).
+
 ### Kolye kabı
 
 The PULSE pendant case was designed to hold the existing parts. Other pendant designs can be created as desired as long as the IR sensor will fit and has a clear view to the front of the pendant.
