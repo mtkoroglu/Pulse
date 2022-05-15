@@ -2,29 +2,6 @@
 # PULSE - yüzünüze dokunmak istediğinizde sizi uyaran kolye
 Here’s the tool and equipment list, materials, circuit diagram and assembly instructions. The ability to solder is necessary to assemble the PULSE pendant. Except for the IR sensor unit, the parts are generic and can be purchased broadly. Example links for purchasing these parts are shown.
 
-### Table of Contents
-* [Gerekenler (Cihâzat)](https://github.com/mtkoroglu/Pulse#gerekenler-(cihâzat))
-
-* [Materials Required and links for ordering](https://github.com/nasa-jpl/Pulse#materials-required-and-links-for-ordering)
-
-* [Pendant Case](https://github.com/nasa-jpl/Pulse#pendant-case)
-
-* [Circuit Diagram](https://github.com/nasa-jpl/Pulse#circuit-diagram)
-
-* [Assembly of the PULSE pendant](https://github.com/nasa-jpl/Pulse#assembly-of-the-pulse-pendant)
-
-* [Frequently Asked Questions - FAQ's](https://github.com/nasa-jpl/Pulse#frequently-asked-questions---faqs)
-
-* [Acknowledgements](https://github.com/nasa-jpl/Pulse#acknowledgements)
-
-* [In The Press](https://github.com/nasa-jpl/Pulse#In-The-Press)
-
-* [Disclaimer](https://github.com/nasa-jpl/Pulse#disclaimer)
-
-* [Contact Us](mailto:pulse@jpl.nasa.gov)
-
-
-
 ### Gerekenler (Cihâzat)
 
 1.	Ev sınıfı 3B yazıcı (PLA dahil)
@@ -83,7 +60,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 ![Circuit_Diagram.jpg](Images/Circuit_Diagram.jpg)
 
-Central to the design of the PULSE pendant is the infrared sensor unit (U1 in the diagram) that provides a high (~3 V) output signal to pin 3 by default, and drops low (~1 V) when the LED detector (D1) receives a signal indicating your hand (or other reflecting object) is in front of the pendant.  L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
+Devre şemasında U1 ile ile gösterilen infrared sensör çıkışı olan 3 no'lu pinde elimiz (veya herhangi bir nesne) sensöre yaklaşmadığı (yani normal) durumda 3V'a yakın bir değer üretiyor, ve D1 ile ile gösterilen LED dedektör elimiz (veya herhangi başka bir nesne) yaklaştığında yaklaşık olarak 1V üretiyor. L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
 
 ### PULSE kolyenin montajı/birleştirilmesi
 
