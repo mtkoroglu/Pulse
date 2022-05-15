@@ -1,18 +1,6 @@
 ![Jet Propulsion Laboratory, California Institute of Technology (NASA JPL)](Images/Misc/NASA_JPL_LOGO.jpg)
 # PULSE - yüzünüze dokunmak istediğinizde sizi uyaran kolye
-Here’s the tool and equipment list, materials, circuit diagram and assembly instructions. The ability to solder is necessary to assemble the PULSE pendant. Except for the IR sensor unit, the parts are generic and can be purchased broadly. Example links for purchasing these parts are shown.
-
-### Gerekenler (Cihâzat)
-
-1.	Ev sınıfı 3B yazıcı (PLA dahil)
-
-2. Havya ve lehim
-
-3. Kablo soyucu
-
-4. Lehimleme için yardımcı biri (opsiyonel)
-
-### Gerekli malzemeler ve sipariş edebileceğiniz bağlantı
+## Gerekli malzemeler ve sipariş edebileceğiniz bağlantı
 
 <img src="Images/Materials_Required.jpg" alt="materails and components" height="500"/>
 
@@ -24,7 +12,7 @@ Here’s the tool and equipment list, materials, circuit diagram and assembly in
  
 *Şekil 2.* Koronavirüs kolyesi projesinde kullanılan malzeme ve devre elemanları (*Robo90.com*).
 
-### Kolye kabı
+## Kolye Kabı 3b Tasarım
 
 The PULSE pendant case was designed to hold the existing parts. Other pendant designs can be created as desired as long as the IR sensor will fit and has a clear view to the front of the pendant.
  
@@ -34,92 +22,11 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 ![cad_with_parts.jpg](Images/cad_with_parts.jpg)
 
-### Devre Şeması
+## Devre Şeması
 
 ![Circuit_Diagram.jpg](Images/Circuit_Diagram.jpg)
 
 Devre şemasında U1 ile ile gösterilen infrared sensör çıkışı olan 3 no'lu pinde elimiz (veya herhangi bir nesne) sensöre yaklaşmadığı (yani normal) durumda 3V'a yakın bir değer üretiyor, ve D1 ile ile gösterilen LED dedektör elimiz (veya herhangi başka bir nesne) yaklaştığında yaklaşık olarak 1V üretiyor. L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
-
-### PULSE kolyenin montajı/birleştirilmesi
-
-1. Wire W1 solders to the center pin of the switch and wire W2 solders to an end pin of the switch. The third pin on the switch can be 		clipped off – it is not used. Heat shrink covers the pins. This picture shows the completed switch next to an assembled PULSE pendant
-
-![assembly_step_1.jpg](Images/assembly_step_1.jpg)
-
-2. The other end of W2 solders to the emitter pin of the transistor as well as wire W3. (This is a three-way connection – wires W2, W3 		and the transistor emitter pin are connected together; this is the positive voltage). The picture shows the use of a helping hands to 	perform the soldering of three leads, and then the end result. Heat shrink is used to cover the lead at the transistor.
-
-![assembly_step_2.jpg](Images/assembly_step_2.jpg)
-
-3. The other end of wire W3 then attaches to pin 2 of the IR sensor
-
-4. Wire W4 (ground), attaches to pin 1 of the IR sensor
-
-5. The 1 K Ohm standard resistor attaches to the middle or base pin of the transistor. Use heat shrink to cover the connection
-
-6. The 1 K Ohm standard resistor attaches to pin 3 of the IR sensor. This picture shows the assembly so far
-
-![assembly_step_5.jpg](Images/assembly_step_5.jpg)
-
-7. The red wire of the vibrating motor solders to the collector pin of the transistor. Use heat shrink to cover the connection
-
-![assembly_step_6.jpg](Images/assembly_step_6.jpg)
-
-8. The black wire of the vibrating motor solders to the ground port of the battery case (jointly with W4). The other end of W1 solders 		to the positive pin of the battery holder. This picture shows the completed assembly and the wires folded for insertion into the 				bottom case
-
-![assembly_step_7.jpg](Images/assembly_step_7.jpg)
-
-9. The motor and switch snap into the case base
-
-10. The IR sensor slides into the case base rails
-
-11. The electronics are gently tucked into the case base
-
-![assembly_step_10.jpg](Images/assembly_step_10.jpg)
-
-12. Using a dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc., lightly paint over the 		emitter as shown in the image below. Using a dark colored pen or marker will not work the same as paint. 
-
-![assembly_step_11.jpg](Images/assembly_step_11.jpg)
-
-13. With the electronics in the case base, the battery can be installed, the switch can be set on; move your hand in front of the IR sensor and the red LED on the sensor board will light and the case will PULSE!  
-
-[![GitHub_Video_Thumbnail.jpg](Images/Misc/GitHub_Video_Thumbnail.jpg)](https://www.youtube.com/watch?v=7utCPXKdKHg&list=PLKWlaxzCh8uKqaNQIiBa6WjCEDBVH6ehV&index=3)
-
-14. Install the top case. Attach a necklace of your choice and PULSE is complete
-
-### Frequently Asked Questions - FAQ's
-
-1.
-     
-     Q: How is battery life / current draw with the current design? I have trichotillomania and this would be a fantastic help for me and many other sufferers. However it would mean we would have to wear it all day, every day to kick the habit.   From an environmental perspective I imagine we would need to change this to take a small rechargeable battery (possibly charge circuitry too) to result in less batteries going to landfill/recycling centres.
-
-     A: The infrared sensor is the largest current draw and at continuous operation runs the battery down over a day or two depending on use. We are looking at a Version 2 that would include a rechargeable battery. Please look at the Version 2 FAQ question for changes we are considering. 
-
-2.
-     Q: I assume painting the IR sensor is to reduce the gain a bit? Since the high brightness version is backordered, would the low brightness version work? The range is 12 inches. Perhaps using a shorter lanyard. Or we could find another source, which would have us altering the print job.
-
-     A: We paint the bottom of infrared sensor to limit stray transmitted IR light from bouncing back to the IR receiver. The pendant case color effects this quite a bit - for example a black case does not need the IR transmittor painted. The low-brightness version does work but with reduced range.  
-
-3.
-     Q: Can we order these already built? 
-
-     A: We are seeking production houses that would be interested in producing PULSE. 
-
-4.
-     Q: Are you planning on making a version 2?
-
-     A: We Are. Functionality for Pulse Version 2 will have a Printed Circuit Board (PCB) holding all electronics. Standard form factor of PCB with infrared (IR) sensor and switch having standard alignment to pendant case
-
-### Acknowledgements
-
-In early March of 2020, it was becoming quite apparent that the pandemic has reached the United States. We, like so many other countries, would have to partake in precautionary methods to protect ourselves from contracting a novel virus that was affecting the world in unrecognizable ways.  
-
-With little information available, we turned to the CDC for guidance. They provide the general public with a clear list of tasks to help prevent infection, one of which was advising us not to touch our faces. As the news unfolded and the warnings heightened, we found ourselves immersed in discussions related to the topic, most of which consisted of commiserating on the laborious task of not touching our face. During a Monday morning tag-up, and as our team members revealed how often they touch their face, [Tom Cwik](mailto:pulse@jpl.nasa.gov), the engineer, and [Faith Oftadeh](mailto:pulse@jpl.nasa.gov), the designer, suddenly realized that a simple wearable device may help with this problematic subconscious behavior. 
-
-Immediately, we started pulling together a list of inexpensive and easily accessible parts, sketching out ideas, and once the concept seemed plausible, we agreed to pursue it all while JPL closed and transitioned to telework. Within days, we found ourselves adjusting to a new way of living. While working from home, managing childcare, and attempting to do “business as usual,” we continued developing PULSE via text and Facetime during the nights and weekends. When it came to creating a proper casing for the pendant, Dan Kolenz joined the team as the CAD mechanical designer. After prototyping and working through sluggish online parts ordering, coupled with frequent late-night texting, facetime sessions, and 3D printing in the garage, we managed to create an operating prototype.  
-
-Dave Gallagher, JPL’s Associate Lab Director provided significant encouragement and JPL support to move forward. Rafael Martinez paved the way from within JPL to allow us to release PULSE and bring it to where it is today. Lisa Harbottle volunteered to demo and model the pendant, Gary Bolotin gave a review of the electronics, Kristy Kawasaki designed the website, and Olivia Cwik was key to soldering and added to the Readme.
-
-Our goal was to create a simple device that can help minimize the spread of a virus. We also hope that the public can further develop this concept. As we return to our office spaces and attempt to integrate back into society, we believe that PULSE may help others stay as healthy as possible.
 
 ### In The Press
 
