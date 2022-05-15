@@ -3,7 +3,7 @@
 Here’s the tool and equipment list, materials, circuit diagram and assembly instructions. The ability to solder is necessary to assemble the PULSE pendant. Except for the IR sensor unit, the parts are generic and can be purchased broadly. Example links for purchasing these parts are shown.
 
 ### Table of Contents
-* [Tools and equipment needed](https://github.com/nasa-jpl/Pulse#tools-and-equipment-needed)
+* [Gerekenler (Cihâzat)](https://github.com/mtkoroglu/Pulse#gerekenler-(cihâzat))
 
 * [Materials Required and links for ordering](https://github.com/nasa-jpl/Pulse#materials-required-and-links-for-ordering)
 
